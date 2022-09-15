@@ -1,0 +1,36 @@
+name: Ruby
+
+on: 
+  push:
+   branches:
+     - main
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v2
+    - name: Set up Ruby
+      uses: ruby/setup-ruby@v1
+      with:
+        ruby-version: 3.1.2
+    - name: Build and update stateofthemap.jp
+      run: |
+        gem install bundler
+        bundle install --jobs 4 --retry 3
+        bundle exec jekyll build -b 2022
+        rm -rf ../stateothemap.master
+        git clone https://$gh_token@github.com/osmfj/stateofthemap ../stateofthemap.master
+        mkdir -p ../stateofthemap.master/2022/
+        cp -R 2022/* ../stateofthemap.master/2022/
+        cd ../stateofthemap.master
+        git config user.email info@osmf.jp
+        git config user.name "OSMFJ automated builder"
+        git add -A 2022
+        git commit -m "Update from github ci sotmjp2022/${{ github.sha }}"
+        git push --quiet origin master > /dev/null 2>&1
+      env:
+        gh_token: ${{ secrets.GH_TOKEN }}
+        
