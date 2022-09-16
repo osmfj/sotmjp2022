@@ -22,7 +22,7 @@ SotM Japanでは、全世界版のSotMの趣旨および価値観をそのまま
 - 日程: 2022年12月3日(土曜日)
 - 主催: [State of the Map Japan 2022 実行委員会 / Code for Harima 実行委員長 福田 宏司(Code for Harima)](#実行委員会について)
 - 共催: [一般社団法人OpenStreetMap Foundation Japan](https://osmf.jp/)
-- 後援: 
+- 後援: [オープン・ナレッジ・ファウンデーション・ジャパン](https://okfn.jp/)
 - 開催場所: 加古川商工会議所<br>
 &nbsp;&nbsp;〒675-0064 兵庫県加古川市加古川町溝之口８００<br>
 &nbsp;&nbsp;( 34.76448, 134.84012 / EPSG:4326 )
