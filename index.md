@@ -33,6 +33,8 @@ SotM Japanでは、全世界版のSotMの趣旨および価値観をそのまま
   - [NPO法人CrisisMappers Japan](http://crisismappers.jp/)
   - [YouthMappers AGU](https://twitter.com/youthmappers4a1)
   - [青山学院大学 地球社会共生学部](https://www.aoyama.ac.jp/faculty/gsc/)
+  - [一般社団法人OSGeo日本支部 （OSGeo.JP）](https://www.osgeo.jp/)
+  - [Code4Lib JAPAN](https://www.code4lib.jp/)
 - 開催場所: 加古川商工会議所<br>
 &nbsp;&nbsp;〒675-0064 兵庫県加古川市加古川町溝之口８００<br>
 &nbsp;&nbsp;( 34.76448, 134.84012 / EPSG:4326 )
