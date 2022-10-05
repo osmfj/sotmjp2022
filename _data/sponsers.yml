@@ -1,0 +1,32 @@
+gold:
+  - company: foo company
+    url: https://www.example.com/
+    img: noimg.webp
+  - company: foo company
+    url: https://www.example.com/
+    img: noimg.webp
+  - company: foo company
+    url: https://www.example.com/
+    img: noimg.webp
+
+silver:
+  - company: bar company
+    url: https://www.example.com/
+    img: noimg.webp
+  - company: bar company
+    url: https://www.example.com/
+    img: noimg.webp
+  - company: bar company
+    url: https://www.example.com/
+    img: noimg.webp
+
+bronze:
+  - company: buz company
+    url: https://www.example.com/
+    img: noimg.webp
+  - company: buz company
+    url: https://www.example.com/
+    img: noimg.webp
+  - company: buz company
+    url: https://www.example.com/
+    img: noimg.webp

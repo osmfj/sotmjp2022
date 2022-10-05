@@ -1,0 +1,37 @@
+<footer class="p-2">
+  <div class="container py-4 px-xxl-5">
+    <div class="row justify-content-center">
+
+      <div class="col-6 col-md-4 col-lg-3 mb-4">
+        <ul class="nav flex-column">
+          <li class="nav-item"><a href="#" class="nav-link text-white">プログラム</a></li>
+          <li class="nav-item"><a href="#" class="nav-link text-white">ポスター発表</a></li>
+          <li class="nav-item"><a href="#" class="nav-link text-white">チケット申し込み</a></li>
+          <li class="nav-item"><a href="#" class="nav-link text-white">開催場所</a></li>
+        </ul>
+      </div>
+
+      <div class="col-6 col-md-4 col-lg-3 mb-4">
+        <ul class="nav flex-column">
+          <li class="nav-item"><a href="#" class="nav-link text-white">発表者募集</a></li>
+          <li class="nav-item"><a href="#" class="nav-link text-white">ポスター発表募集</a></li>
+          <li class="nav-item"><a href="#" class="nav-link text-white">企画募集</a></li>
+          <li class="nav-item"><a href="#" class="nav-link text-white">LT募集</a></li>
+        </ul>
+      </div>
+
+      <div class="col-6 col-md-4 col-lg-3 mb-4">
+        <ul class="nav flex-column">
+        {% for network in site.social %}
+        <li class="nav-item"><a href="{{ network.url }}" class="nav-link text-white text-capitalize"><i class="bi-{{ network.icon }}"></i> {{ network.title }}</a></li>
+        {% endfor %}
+      </div>
+
+      <div class="text-center col-6 col-md-4 col-lg-3 mb-4">
+        <img src="/img/sotmjapan-logo.webp" alt="" width="50%">
+      </div>
+
+    </div>
+  </div>
+  <p class="m-0 p-0 text-end text-white" style="font-size: 9pt;"><small>Cover image <a href="https://commons.wikimedia.org/w/index.php?curid=5567122&uselang=ja" class="text-white">加古川線加古川（上荘町）厄神ー市場</a> Creative Commons License <a href="https://creativecommons.org/licenses/by-sa/3.0/deed.ja" class="text-white">表示 - 継承 3.0 非移植 (CC BY-SA 3.0)</a></small></p>
+</footer>
