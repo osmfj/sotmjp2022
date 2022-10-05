@@ -1,5 +1,68 @@
 title: State of the Map Japan 2022
 description: 世界を自由な地図にしよう
-theme: jekyll-theme-cayman
-lang: ja-JP
+lang: ja
+timezone: Asia/Tokyo
 destination: "2022"
+
+event:
+  title: State of the Map Japan 2022
+  date: 2022年12月3日
+  dayofweek: 土曜日
+  time: 13:00 - 18:00
+  venue: 加古川市商工会議所
+  zip: 675-0064
+  address: 兵庫県加古川市加古川町溝之口800
+  lat: 34.76448
+  lon: 134.84012
+  fee: 無料
+  message: オープンストリートマップは「自由な地図をみんなの手に」をスローガンに、日本や世界の自由につかえる地図を実現していこうとボランティアが草の根で作成した地図データの集合体です。わたしたちは、この活動をさらに発展させるためにカンファレンスを企画しました
+  target: 参加者の属性としては、OSM編集者、OSMデータ利用企業、地理空間情報技術者、学術利用者、行政関係者、シビックテックを始めとするコミュニティなどが中心となります。地方からの参加・発表も予定しています
+  host:
+    - name: State of the Map Japan 2022 実行委員会
+      url: https://stateofthemap.jp/2022/
+    - name: Code for Harima
+      url: https://facebook.com/codeforharima/
+  chairman: 福田 宏司(Code for Harima)
+  cohost:
+    - name: 一般社団法人 OpenStreetMap Foundation Japan
+      url: https://osmf.jp/
+  support:
+    - name: オープン・ナレッジ・ファウンデーション・ジャパン
+      url: https://okfn.jp/
+    - name: Code for Japan
+      url: https://www.code4japan.org/
+    - name: Open Source People Network
+      url: https://www.ospn.jp/
+    - name: NPO法人CrisisMappers Japan
+      url: http://crisismappers.jp/
+    - name: YouthMappers AGU
+      url: https://twitter.com/youthmappers4a1
+    - name: 青山学院大学 地球社会共生学部
+      url: https://www.aoyama.ac.jp/faculty/gsc/
+    - name: 一般社団法人OSGeo日本支部 （OSGeo.JP）
+      url: https://www.osgeo.jp/
+    - name: Code4Lib JAPAN
+      url: https://www.code4lib.jp/
+
+social:
+  - title: twitter
+    icon: twitter
+    url: https://twitter.com/osmfj
+  - title: facebook
+    icon: facebook
+    url: https://www.facebook.com/osmfj
+  - title: youtube
+    icon: youtube
+    url: https://www.youtube.com/channel/UCKS6DjwrVC1gEx6PO0nX3TQ
+  - title: telegram
+    icon: telegram
+    url: https://t.me/osmjapan
+  - title: github
+    icon: github
+    url: https://github.com/osmfj
+  - title: blog
+    icon: journal
+    url: https://blog.openstreetmap.org/?lang=ja
+  - title: wiki
+    icon: pencil-square
+    url: https://wiki.openstreetmap.org/wiki/JA:Main_Page

@@ -1,4 +1,7 @@
-# Code of conduct
+---
+title: Code of Conduct
+layout: page
+---
 
 ## はじめに
 
@@ -10,13 +13,11 @@ State of the Map Japan 2022では、皆様に心地よく、そして楽しく�
 
 私たちは、この規範が皆さんの思う「よりよいオープンソース・コミュニティ」の在り方と合致していればとてもうれしく思います。
 
-
-<aside style="text-align: right;">State of the Map Japan 2022 行動規範 Ver.1.0 – 2022年10月初版<br />
-
-<a href="http://creativecommons.org/licenses/by/4.0/" rel="license"><img style="border-width: 0; border-radius: 0; width: auto; height: auto;" src="https://i.creativecommons.org/l/by/4.0/88x31.png" alt="クリエイティブ・コモンズ・ライセンス" /></a><br />
-この行動規範は<a href="https://foss4g.hokkaido.jp/code-of-conduct/">FOSS4G Hokkaidoの行動規範</a>を元に作成されています。<br />
-この行動規範はCC BY 4.0で公開されています。<br />
-あなたの団体のオープンな行動規範の叩き台となれば幸いです。</aside>
+<aside class="coc_publishing mt-4 mb-5 mx-auto">
+<p>State of the Map Japan 2022 行動規範 Ver.1.0 – 2022年10月初版</p>
+<a href="http://creativecommons.org/licenses/by/4.0/" rel="license"><img style="border-width: 0; border-radius: 0; width: auto; height: auto;" src="https://i.creativecommons.org/l/by/4.0/88x31.png" alt="クリエイティブ・コモンズ・ライセンス" /></a>
+<p>この行動規範は<a href="https://foss4g.hokkaido.jp/code-of-conduct/">FOSS4G Hokkaidoの行動規範</a>を元に作成されています。この行動規範はCC BY 4.0で公開されています。あなたの団体のオープンな行動規範の叩き台となれば幸いです。</p>
+</aside>
 
 ## 多様性のために
 
@@ -24,7 +25,7 @@ State of the Map Japan 2022では、皆様に心地よく、そして楽しく�
 
 State of the Map Japan 2022は、Free & Open-Source Softwareのためのコミュニティであり、それを利用・検討・開発したりするさまざまな立場の人のために開かれた場であらねばなりません。
 
- 
+
 
 私たちは、自認や外形を含む性別、年齢、性的指向、障害や身体的特徴、人種・民族・国籍・言語や地域性、職業や経歴、宗教や思想や文化・ライフスタイル、技術力や技術の選択・手法などのさまざまな個人のありかたに対して、ハラスメントを許容しません。
 
@@ -34,7 +35,7 @@ State of the Map Japan 2022は、Free & Open-Source Softwareのためのコミ�
 
 私たちはこれらの規則を破った参加者に対し、委員会の決定のもと、有償であっても払い戻しなく退出を求め、今後ともに参加を拒絶することがあります。また、場合によっては事態の収拾のために当該参加者に法的責任を問うことも辞しません。
 
- 
+
 
 この行動規範を守る限り、私たちは皆さんの参加を歓迎し、奨励します。
 
@@ -42,7 +43,7 @@ State of the Map Japan 2022は、Free & Open-Source Softwareのためのコミ�
 
 皆さまが前述のいかなる特徴を持っているとしても、また、いかなる思想や信条を持っているとしても、私たちは皆さんを歓迎します。
 
- 
+
 
 私たちには思想と信条の自由があります。
 
@@ -54,7 +55,7 @@ State of the Map Japan 2022は、Free & Open-Source Softwareのためのコミ�
 
 機密性や法的問題があると思われる以外の全てにおいて、コミュニティ内で活発に共有され、オープンな形で共有されることが望ましいと考えています。
 
- 
+
 
 疑問や問題を共有する人に優しくしてください。
 
@@ -68,7 +69,7 @@ State of the Map Japan 2022は、Free & Open-Source Softwareのためのコミ�
 
 共感的に、歓迎的に、協力的に、友好的に、そして忍耐を持ってください。
 
- 
+
 
 皆さんの友好的であろうとする努力に感謝します。
 
@@ -88,7 +89,7 @@ State of the Map Japan 2022は、Free & Open-Source Softwareのためのコミ�
 - 個人情報や機密情報、非公開のやりとりの無許可での公開
 - これらに対し支援を行ったり称賛するような言動
 
- 
+
 
 私たちは皆さんのコミュニケーションに水を差すことをしたくありません。
 
@@ -106,7 +107,8 @@ State of the Map Japan 2022は、Free & Open-Source Softwareのためのコミ�
 
 私たちは皆さんとともによりよいコミュニティを作っていきます。
 
- 
+
 
 皆さんのご協力に感謝します。
-State of the Map Japan 2022 実行委員会
+
+<p class="text-end mt-4">State of the Map Japan 2022 実行委員会</p>

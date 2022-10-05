@@ -1,0 +1,60 @@
+<section>
+  <div class="container py-4 py-xl-5">
+    <h2 class="display-6 fw-bold mb-4" id="event-outline"><i class="bi bi-card-text"></i> 開催概要</h2>
+    <div class="row justify-content-center">
+      <div class="col">
+
+        <div class="card">
+          <div class="card-body">
+
+            <div class="container">
+              <div class="row">
+                <div class="col-lg-6">
+                  <ul>
+                    <li>イベントタイトル: {{ site.event["title"] }}</li>
+                    <li>開催日時: {{ site.event["date"] }}({{ site.event["dayofweek"] }}) {{ site.event["time"] }}</li>
+                    <li>
+                      開催場所: {{ site.event["venue"] }}<br>
+                      〒{{ site.event["zip"] }} {{ site.event["address"] }}<br>
+                      ({{ site.event["lat"] }}, {{ site.event["lon"] }} / EPSG:4326)
+                    </li>
+                    <li>参加費: {{ site.event["fee"] }}</li>
+                    <li>主催:
+                      <ul>
+                        {% for host in site.event["host"] %}
+                        <li><a href="{{ host.url }}">{{ host.name }}</a></li>
+                        {% endfor %}
+                      </ul>
+                    </li>
+                    <li>実行委員長: {{ site.event["chairman"] }}</li>
+                    <li>共催:
+                      <ul>
+                        {% for cohost in site.event["cohost"] %}
+                        <li><a href="{{ cohost.url }}">{{ cohost.name }}</a></li>
+                        {% endfor %}
+                      </ul>
+                    </li>
+                  </ul>
+                </div>
+                <div class="col-lg-5">
+                  <ul>
+                    <li>後援:
+                      <ul>
+                        {% for support in site.event["support"] %}
+                        <li><a href="{{ support.url }}">{{ support.name }}</a></li>
+                        {% endfor %}
+                      </ul>
+                    </li>
+                  </ul>
+
+                </div>
+              </div>
+            </div>
+            <p class="card-text">{{ site.event["target"] }}</p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+</section>
