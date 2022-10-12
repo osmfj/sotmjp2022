@@ -1,5 +1,5 @@
 ---
-title: State of the map Japan 2022 in Kakogawa
+title: State of the Map Japan 2022 in Kakogawa
 layout: home
 ---
 
