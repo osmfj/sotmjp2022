@@ -15,8 +15,8 @@ event:
   lat: 34.76448
   lon: 134.84012
   fee: 無料
-  message: オープンストリートマップは「自由な地図をみんなの手に」をスローガンに、日本や世界の自由につかえる地図を実現していこうとボランティアが草の根で作成した地図データの集合体です。わたしたちは、この活動をさらに発展させるためにカンファレンスを企画しました
-  target: 参加者の属性としては、OSM編集者、OSMデータ利用企業、地理空間情報技術者、学術利用者、行政関係者、シビックテックを始めとするコミュニティなどが中心となります。地方からの参加・発表も予定しています
+  message: OpenStreetMapは「自由な地図をみんなの手に」をスローガンに作成した地図データの集合体です。わたしたちは、この活動をさらに発展させるためにカンファレンスを企画しました。
+  target: OpenStreetMap編集者、企業、技術者、研究者、行政関係者、シビックテックなどのコミュニティが集まり、各地・各領域の発表や交流を行います。
   host:
     - name: State of the Map Japan 2022 実行委員会
       url: https://stateofthemap.jp/2022/
@@ -25,10 +25,10 @@ event:
   chairman: 福田 宏司(Code for Harima)
   cohost:
     - name: 一般社団法人 OpenStreetMap Foundation Japan
-      url: https://osmf.jp/
+      url: https://www.osmf.jp/
   support:
     - name: オープン・ナレッジ・ファウンデーション・ジャパン
-      url: https://okfn.jp/
+      url: https://www.facebook.com/OKFjp/
     - name: Code for Japan
       url: https://www.code4japan.org/
     - name: Open Source People Network
@@ -45,24 +45,21 @@ event:
       url: https://www.code4lib.jp/
 
 social:
-  - title: twitter
+  - title: Code for Harima
+    icon: facebook
+    url: https://www.facebook.com/codeforharima/
+  - title: OpenStreetMap Foundation Japan
     icon: twitter
     url: https://twitter.com/osmfj
-  - title: facebook
+  - title: OpenStreetMap Foundation Japan
     icon: facebook
     url: https://www.facebook.com/osmfj
   - title: youtube
     icon: youtube
     url: https://www.youtube.com/channel/UCKS6DjwrVC1gEx6PO0nX3TQ
-  - title: telegram
-    icon: telegram
-    url: https://t.me/osmjapan
   - title: github
     icon: github
     url: https://github.com/osmfj
-  - title: blog
-    icon: journal
-    url: https://blog.openstreetmap.org/?lang=ja
   - title: wiki
     icon: pencil-square
     url: https://wiki.openstreetmap.org/wiki/JA:Main_Page

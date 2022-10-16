@@ -1,15 +1,21 @@
-<section>
-  <div class="container py-4 py-xl-5">
-    <h2 class="display-6 fw-bold mb-4" id="sponser"><i class="bi bi-star"></i> スポンサー</h2>
+<section id="sponser">
+  <div class="container py-4 py-xl-5 mb-5">
+    <h2 class="display-6 fw-bold mb-2"><i class="bi bi-star"></i> スポンサー</h2>
     <div class="row justify-content-center">
-      <div class="col mt-5">
+      <div class="col">
         {% for sponser in site.data.sponsers %}
-        <h3 class="text-uppercase">{{ sponser[0] }}</h3>
+        <h3 class="text-uppercase m-4">{{ sponser[0] }}</h3>
         <div class="row justify-content-center">
           {% for company in sponser[1] %}
           <div class="col text-center">
-            <a href="{{ company.url }}"><img src="img/{{ company.img }}" alt="" width="200vw"></a>
-            <p>{{ company.name }}</p>
+            <div class="h-100" style="display: flex; justify-content: center; align-items: center;">
+              {% if company.url != "https://www.example.com/" %}
+              <a href="{{ company.url }}"><img src="img/{{ company.img }}" alt="{{ company.company }}"
+                  width="200vw"></a>
+              {% else %}
+              <img src="img/{{ company.img }}" alt="{{ company.company }}" width="200vw">
+              {% endif %}
+            </div>
           </div>
           {% endfor %}
         </div>

@@ -4,6 +4,8 @@ layout: home
 ---
 
 {% include about.html %}
+{% include news.html %}
 {% include outline.html %}
+{% include sponser.html %}
 {% include committee.html %}
 {% include map.html %}

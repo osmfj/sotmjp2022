@@ -7,9 +7,8 @@
       <div class="col my-xxl-5 py-xxl-5">
         {% for event in site.event %}
         {% endfor %}
-        <h1 class="display-3 fw-bold">{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</h1>
+        <h1 class="display-4 fw-bold">{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</h1>
         <h2 class="h4 fw-bold">{{ site.event["date"] }} ({{ site.event["dayofweek"] }}) {{ site.event["time"] }} {{ site.event["venue"] }}</h2>
-        <p class="lead fs-6">{{ site.event["message"]}}</p>
         <!--
         <button class="btn btn-light" onclick="loction.href='https://example.com/'">今すぐ登録</button>
         -->
