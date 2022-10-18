@@ -1,7 +1,7 @@
 platinum:
-  - company: foo company
-    url: https://www.example.com/
-    img: noimg.webp
+  - company: Niantic
+    url: https://nianticlabs.com/?hl=ja
+    img: NianticLogo-Large.png
 
 gold:
   - company: foo company
