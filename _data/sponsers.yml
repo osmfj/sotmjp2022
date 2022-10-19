@@ -15,9 +15,9 @@ silver:
   - company: mapbox
     url: https://www.mapbox.jp/
     img: mapbox-logo-black.png
-  - company: bar company
-    url: https://www.example.com/
-    img: noimg.webp
+  - company: Georepublic
+    url: https://georepublic.info/ja/
+    img: georepublic.png
   - company: bar company
     url: https://www.example.com/
     img: noimg.webp
