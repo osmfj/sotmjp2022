@@ -42,7 +42,13 @@
                     <li>後援:
                       <ul>
                         {% for support in site.event["support"] %}
-                        <li><a href="{{ support.url }}">{{ support.name }}</a></li>
+                        <li>
+                          {% if support.url %}
+                            <a href="{{ support.url }}">{{ support.name }}</a>
+                          {% else %}
+                            {{ support.name }}
+                          {% endif %}
+                        </li>
                         {% endfor %}
                       </ul>
                     </li>

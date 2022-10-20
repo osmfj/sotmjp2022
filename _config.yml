@@ -43,6 +43,8 @@ event:
       url: https://www.osgeo.jp/
     - name: Code4Lib JAPAN
       url: https://www.code4lib.jp/
+    - name: 兵庫ニューメディア推進協議会
+      url: 
 
 social:
   - title: Code for Harima
