@@ -4,9 +4,9 @@ platinum:
     img: NianticLogo-Large.png
 
 gold:
-  - company: foo company
-    url: https://www.example.com/
-    img: noimg.webp
+  - company: LocationMind
+    url: https://locationmind.com/
+    img: LocationMind_logo.png
   - company: foo company
     url: https://www.example.com/
     img: noimg.webp
