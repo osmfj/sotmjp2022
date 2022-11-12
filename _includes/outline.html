@@ -16,7 +16,7 @@
                     <li>タイトル: {{ site.event["title"] }}</li>
                     <li>開催日時: {{ site.event["date"] }}({{ site.event["dayofweek"] }}) {{ site.event["time"] }}</li>
                     <li>
-                      開催場所: {{ site.event["venue"] }}<br>
+                      開催場所: {{ site.event["venue"] }} <a href="{{ site.event.map }}"><i class="bi bi-map-fill"></i></a><br>
                       〒{{ site.event["zip"] }} {{ site.event["address"] }}
                     </li>
                     <li>参加費: {{ site.event["fee"] }}(寄付募集予定)</li>

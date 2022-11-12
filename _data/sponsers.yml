@@ -7,9 +7,9 @@ gold:
   - company: LocationMind
     url: https://locationmind.com/
     img: LocationMind_logo.png
-  - company: foo company
-    url: https://www.example.com/
-    img: noimg.webp
+  - company: Mapillary
+    url: https://www.mapillary.com/
+    img: meta_mapillary_logos.png
 
 silver:
   - company: mapbox
