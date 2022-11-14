@@ -6,6 +6,7 @@ layout: home
 {% include about.html %}
 {% include news.html %}
 {% include outline.html %}
+{% include speaker.html %}
 {% include timetable.html %}
 {% include sponser.html %}
 {% include committee.html %}
