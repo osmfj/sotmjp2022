@@ -48,6 +48,8 @@ event:
       url: 
     - name: 加古川市
       url: https://www.city.kakogawa.lg.jp/
+    - name: 兵庫県
+      url: https://web.pref.hyogo.lg.jp/
 
 social:
   - title: Code for Harima
