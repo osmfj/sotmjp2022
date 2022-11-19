@@ -8,10 +8,9 @@
         {% for event in site.event %}
         {% endfor %}
         <h1 class="display-4 fw-bold">{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</h1>
-        <h2 class="h4 fw-bold">{{ site.event["date"] }} ({{ site.event["dayofweek"] }}) {{ site.event["time"] }} {{ site.event["venue"] }}</h2>
-        <!--
-        <button class="btn btn-light" onclick="loction.href='https://example.com/'">今すぐ登録</button>
-        -->
+        <h2 class="h4 fw-bold">{{ site.event["date"] }} ({{ site.event["dayofweek"] }}) {{ site.event["time"] }} {{ site.event["venue"] }}<br>
+        カンファレンス開催テーマ「リスタート」</h2>
+        <button class="btn btn-light m-2" onclick="location.href='https://sotmjp2022.peatix.com/'">今すぐ登録</button>
       </div>
     </div>
   </div>
