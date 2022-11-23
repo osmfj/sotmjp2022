@@ -12,8 +12,8 @@
           </div>
           <div class="col-10 col-md-7 col-lg-8 col-xl-9 p-3">
             <h4 class="fs-2">{{ talk.title }}</h4>
-            <p class="fs-4">{{ talker.name }}</p>
-            <p>{{ talk.position }}</p>
+            <p class="speaker">{{ talk.name }} | {{ talk.position }}</p>
+            <p>{{ talk.description }}</p>
           </div>
         </div>
         {% endfor %}

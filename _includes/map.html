@@ -1,11 +1,12 @@
 <section>
   <div class="container-fluid">
     <div class="row">
-      <div class="col ratio" style="--bs-aspect-ratio: 35vh;">
+      <div class="col" style="height: 40vh;">
         {% assign l = site.data.location[0] %}
-        <iframe class="m-0 p-0" width="100%" height="100%" frameborder="0" scrolling="no" marginheight="0"
-          marginwidth="0" src="https://www.openstreetmap.org/export/embed.html?bbox={{ l['bbox1_lon'] }}%2C{{ l['bbox1_lat'] }}%2C{{ l['bbox2_lon'] }}%2C{{ l['bbox2_lat'] }}&amp;layer={{ l['layer'] }}&amp;marker={{ l['marker_lat'] }}%2C{{ l['marker_lon'] }}"></iframe><br />
-          <small><a href="https://www.openstreetmap.org/?mlat={{ l['marker_lat'] }}&amp;mlon={{ l['marker_lon'] }}#map={{ l['zoom'] }}/{{ l['marker_lat'] }}/{{ l['marker_lon'] }}">大きな地図を表示</a></small>
+        <iframe class="m-0 p-0" width="100%" height="100%" frameborder="0" marginheight="0" marginwidth="0"
+          src="https://www.openstreetmap.org/export/embed.html?bbox={{ l['bbox1_lon'] }}%2C{{ l['bbox1_lat'] }}%2C{{ l['bbox2_lon'] }}%2C{{ l['bbox2_lat'] }}&amp;layer={{ l['layer'] }}&amp;marker={{ l['marker_lat'] }}%2C{{ l['marker_lon'] }}"></iframe><br />
+        <small><a class="nav-link text-white text-capitalize text-end"
+            href="https://www.openstreetmap.org/?mlat={{ l['marker_lat'] }}&amp;mlon={{ l['marker_lon'] }}#map={{ l['zoom'] }}/{{ l['marker_lat'] }}/{{ l['marker_lon'] }}">大きな地図を表示</a></small>
       </div>
     </div>
   </div>
