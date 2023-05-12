@@ -18,6 +18,7 @@ jobs:
         ruby-version: 3.1.2
     - name: Build and update stateofthemap.jp
       run: |
+        bundle update sass
         gem install bundler
         bundle install --jobs 4 --retry 3
         bundle exec jekyll build -b 2022
